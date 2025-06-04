@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuis 10 Soal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start-page">
+    <h1>Selamat Datang di Kuis!</h1>
+    <button id="start-btn">Mulai Kuis</button>
+  </div>
+
+  <div id="quiz-page" style="display: none;">
+    <form id="quiz-form">
+      <div id="questions-container"></div>
+      <button type="submit">Selesai</button>
+    </form>
+  </div>
+
+  <div id="result-page" style="display: none;">
+    <h2>Nilai Kamu: <span id="score"></span></h2>
+    <button onclick="location.reload()">Coba Lagi</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
